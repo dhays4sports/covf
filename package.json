@@ -1,0 +1,14 @@
+{
+  "name": "coveragefit",
+  "version": "3.20.54",
+  "private": true,
+  "description": "CoverageFit consultation-first Agent Workspace and Consultation Document with privacy-safe immediate producer alerts for actionable 408-FARMERS SMS queue events.",
+  "scripts": {
+    "test": "node RUN_REGRESSION_SUITE.js",
+    "cloudflare:dev": "wrangler pages dev .",
+    "cloudflare:functions:build": "wrangler pages functions build --outdir=.cloudflare/functions-dist"
+  },
+  "devDependencies": {
+    "wrangler": "4.114.0"
+  }
+}
